@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+body{
+    background-image: linear-gradient(to top left, #4c1457 0%, rgb(56, 0, 93) 100%);
+}
+
+.container{
+    text-align: center;
+    margin: 10px auto;
+}
+
+h1{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+#new-game{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 20px auto;
+    background-color: brown;
+    color: white;
+}
+
+#new-game:hover{
+    background-color: darkred;
+    cursor: pointer;
+    transition: .7s;
+}
+
+
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 60%;
+    margin: 20px auto;
+    column-gap: 15px;
+    row-gap: 8px;
+}
+
+
