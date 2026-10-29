@@ -10,14 +10,14 @@ export default function App() {
 
   const shuffleNumbers = () => {
     const cardImages = [
-      { src: "/public/images 1.jpg", matched: false },
-      { src: "/public/images 2.jpg", matched: false },
-      { src: "/public/images 3.jpg", matched: false },
-      { src: "/public/images 4.jpg", matched: false },
-      { src: "/public/images 5.jpg", matched: false },
-      { src: "/public/images 6.jpg", matched: false },
-      { src: "/public/images 7.jpg", matched: false },
-      { src: "/public/images 8.jpg", matched: false },
+      { src: "/images 1.jpg", matched: false },
+      { src: "/images 2.jpg", matched: false },
+      { src: "/images 3.jpg", matched: false },
+      { src: "/images 4.jpg", matched: false },
+      { src: "/images 5.jpg", matched: false },
+      { src: "/images 6.jpg", matched: false },
+      { src: "/images 7.jpg", matched: false },
+      { src: "/images 8.jpg", matched: false },
     ];
     const newArr = [...cardImages, ...cardImages]
       .sort(() => Math.random() - 0.5)
