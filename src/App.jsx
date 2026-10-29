@@ -85,7 +85,7 @@ export default function App() {
           </div>
         ))}
       </div>
-      <p>turns: {turns}</p>
+      <p id="turns">turns: {turns}</p>
     </div>
   );
 }
