@@ -40,4 +40,11 @@ h1{
     row-gap: 8px;
 }
 
+#turns{
+    color:white;
+    font-size: 20px;
+    font-weight:500;
+    margin-bottom: 10px;
+}
+
 
